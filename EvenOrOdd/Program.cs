@@ -17,7 +17,7 @@
             Console.WriteLine("Entered Number Is Even");
         }
 
-        else
+        else if (number % 2 != 0)
         {
             Console.WriteLine("Entered Number Is Odd");
         }
